@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @accessory %>
+
+<div>
+  <%= link_to "Edit this accessory", edit_accessory_path(@accessory) %> |
+  <%= link_to "Back to accessories", accessories_path %>
+
+  <%= button_to "Destroy this accessory", @accessory, method: :delete %>
+</div>

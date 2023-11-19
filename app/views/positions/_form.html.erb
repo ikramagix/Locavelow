@@ -1,0 +1,37 @@
+<%= form_with(model: position) do |form| %>
+  <% if position.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(position.errors.count, "error") %> prohibited this position from being saved:</h2>
+
+      <ul>
+        <% position.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :bicycle_id, style: "display: block" %>
+    <%= form.text_field :bicycle_id %>
+  </div>
+
+  <div>
+    <%= form.label :latitude, style: "display: block" %>
+    <%= form.text_field :latitude %>
+  </div>
+
+  <div>
+    <%= form.label :longitude, style: "display: block" %>
+    <%= form.text_field :longitude %>
+  </div>
+
+  <div>
+    <%= form.label :address, style: "display: block" %>
+    <%= form.text_field :address %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

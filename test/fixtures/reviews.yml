@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  reviewed_user: one
+  reviewer_user: one
+  rental: one
+  rating: 1
+  review_text: MyText
+  review_date: 2023-11-19 13:07:06
+
+two:
+  reviewed_user: two
+  reviewer_user: two
+  rental: two
+  rating: 1
+  review_text: MyText
+  review_date: 2023-11-19 13:07:06
