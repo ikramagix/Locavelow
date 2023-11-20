@@ -1,0 +1,47 @@
+<%= form_with(model: bicycle) do |form| %>
+  <% if bicycle.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(bicycle.errors.count, "error") %> prohibited this bicycle from being saved:</h2>
+
+      <ul>
+        <% bicycle.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :owner_id, style: "display: block" %>
+    <%= form.text_field :owner_id %>
+  </div>
+
+  <div>
+    <%= form.label :model, style: "display: block" %>
+    <%= form.text_field :model %>
+  </div>
+
+  <div>
+    <%= form.label :bicycle_type, style: "display: block" %>
+    <%= form.number_field :bicycle_type %>
+  </div>
+
+  <div>
+    <%= form.label :size, style: "display: block" %>
+    <%= form.number_field :size %>
+  </div>
+
+  <div>
+    <%= form.label :condition, style: "display: block" %>
+    <%= form.text_field :condition %>
+  </div>
+
+  <div>
+    <%= form.label :price_per_hour, style: "display: block" %>
+    <%= form.number_field :price_per_hour %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  owner: one
+  model: MyString
+  bicycle_type: 1
+  size: 1
+  condition: MyString
+  price_per_hour: 1
+
+two:
+  owner: two
+  model: MyString
+  bicycle_type: 1
+  size: 1
+  condition: MyString
+  price_per_hour: 1
