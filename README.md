@@ -9,12 +9,12 @@
 5. Réinitialisation de mot de passe avec email : l'email en local apparaitra dans votre terminal avec ce format : 
 
 <br>
->Delivered mail 655f28c7d4519_6fdf3cf027040@LAPTOP-K9LHOBAQ.mail (33.5ms)
+>Delivered mail 655f28c7d4519_6fdf3cf027040@LAPTOP-XYZ;mail (33.5ms)
 >Date: Thu, 23 Nov 2023 11:26:15 +0100
 >From: please-change-me-at-config-initializers-devise@example.com
 >Reply-To: please-change-me-at-config-initializers-devise@example.com
 >To: bennett@spinka.example
->Message-ID: <655f28c7d4519_6fdf3cf027040@LAPTOP-K9LHOBAQ.mail>
+>Message-ID: 655f28c7d4519_6fdf3cf027040@LAPTOP-XYZ.mail
 >Subject: Reset password instructions
 >Mime-Version: 1.0
 >Content-Type: text/html;
