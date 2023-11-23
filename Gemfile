@@ -60,7 +60,7 @@ group :development do
   # gem "spring"
 
   gem "faker"
- gem "table_print"
+  gem "table_print"
 end
 
 group :test do
